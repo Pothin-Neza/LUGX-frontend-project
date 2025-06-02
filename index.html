@@ -4,39 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lugx gaming shop</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 </head>
 <body>
     <div>
-        <div class=" bg-blue-500 pb-64 rounded-b-3xl">
+        <div class=" bg-blue-500 pb-64 rounded-b-[150px]">
             <nav class=" flex items-center mx-24 mt-4 rounded-b-3xl">
                 <img class="h-16" src="Assets/LUGXX logo.png" alt="lugx logo">
                 <ul class="flex space-x-20 ml-80">
-                    <li>Home</li>
-                    <li>Our&nbsp;Shop</li>
-                    <li>Product&nbsp;Details</li>
-                    <li>Contact&nbsp;Us</li>
+                    <li class="text-white">Home</li>
+                    <li class="text-white">Our&nbsp;Shop</li>
+                    <li class="text-white">Product&nbsp;Details</li>
+                    <li class="text-white">Contact&nbsp;Us</li>
                     <li><button class="bg-red-500 w-24 h-10 rounded-3xl text-white font-medium">SIGN IN</button></li>
                 </ul>
             </nav>
 
             <div class="flex mx-24 mt-32">
-                <section>
-                    <p class="font-medium text-lg">WELCOME TO LUGX</p><br>
-                    <H1 class="font-bold text-4xl ">BEST GAMING SITE <br>EVER!</H1><br><br>
-                    <p>LUGX Gaming is free Bootstrap 5 HTML CSS&nbsp;website template for your gaming <br>websites. you can download and use this layout for commercial purposes.</p>
-                    <p> Please tell your friends about templateMo.</p>
+                <section class="w-[620px]">
+                    <p class="font-medium text-lg text-white">WELCOME TO LUGX</p><br>
+                    <H1 class="font-bold text-4xl text-white">BEST GAMING SITE <br>EVER!</H1><br><br>
+                    <p class="text-white">LUGX Gaming is free Bootstrap 5 HTML CSS website template for your gaming &nbsp;websites. you can download and use this layout for commercial purposes.</p>
+                    <p class="text-white"> Please tell your friends about templateMo.</p>
                     <input class=" bg-gray-200 mt-16 h-12 w-96 rounded-3xl pl-4" type="text" placeholder="Type something">
                     <button class="absolute left-96 bg-red-500 mt-16 w-32 h-12 rounded-3xl text-white font-medium">SEARCH NOW</button>
                 </section>
                 <section class="flex justify-center mt-10 mr-24">
                     <div class="relative">
-                        <img class="ml-96 h-96 w-96 border-2 border-black rounded-3xl" src="Assets/Assassin creed.jpg" alt="Assassin creed">
-                        <p class="absolute ml-80 -mt-24 bg-red-500 text-white text-3xl font-bold w-28 h-28 rounded-full flex items-center justify-center">-40%</p>
+                        <img class="ml-28 h-96 w-[340px]  rounded-3xl" src="Assets/Assassin creed.jpg" alt="Assassin creed">
+                        <p class="absolute ml-24 -mt-24 bg-red-500 text-white text-3xl font-bold w-28 h-28 rounded-full flex items-center justify-center">-40%</p>
               
                 <!-- Top-right badge -->
-                        <p class="absolute top-2 -right-24  bg-blue-500 flex items-center justify-center rounded-3xl h-10 w-16 font-bold text-white text-2xl">$22</p>
+                        <p class="absolute top-2 right-6  bg-blue-500 flex items-center justify-center rounded-3xl h-10 w-16 font-bold text-white text-2xl">$22</p>
                     </div>
                 </section> <br><br><br>
             
@@ -67,7 +67,7 @@
 
             <!-- Trending games -->
         <div class="mx-24 mt-16">
-            <p class="text-red-500"><b>TRENDING</b></p>
+            <p class="text-red-400"><b>TRENDING</b></p>
             <section class="flex justify-between items-center ">
                 <p class="text-5xl font-bold mt-6">Trending Games</p>
                 <button class="bg-red-500 text-white px-4 py-2 rounded-3xl">VIEW ALL</button>
@@ -116,8 +116,8 @@
         </div>
 
                 <!-- Top played -->
-        <div class="bg-gray-100 px-24 pt-24 pb-16 rounded-3xl mt-32">
-            <p class="text-red-500"><b>TOP GAMES</b></p>
+        <div class="bg-gray-100 px-24 pt-24 pb-16 rounded-[150px] mt-32">
+            <p class="text-red-400"><b>TOP GAMES</b></p>
             <section class="flex justify-between items-center pt-8">
                 <p class="font-bold text-4xl">Most Played</p>
                 <button class="bg-red-500 text-white px-4 py-2 rounded-3xl">VIEW ALL</button>
@@ -167,6 +167,61 @@
                 </section>
             </div>
         </div>
+
+        <div class="mt-20 mx-24">
+            <section class="flex flex-col  items-center space-y-8">
+                <p class="text-red-400 font-bold">CATEGORIES</p>
+                <p class="text-4xl font-bold">Top Categories</p>
+            </section>
+            <div class="mt-20 flex space-x-7">
+                <section class="bg-blue-500 w-52 rounded-3xl">
+                    <p class="ml-20 pt-4 text-white text-xl">Action</p>
+                    <img class="w-full h-52 mt-6 rounded-3xl" src="Assets/categories-01.jpeg">
+                </section>
+
+                <section class="bg-blue-500 w-52 rounded-3xl">
+                    <p class="ml-20 pt-4 text-white text-xl">Action</p>
+                    <img class="h-52 mt-6 rounded-3xl " src="Assets/top-game-01.jpeg">
+                </section>
+
+                <section class="bg-blue-500 w-52 rounded-3xl">
+                    <p class="ml-20 pt-4 text-white text-xl">Action</p>
+                    <img class="w-full h-52 mt-6 rounded-3xl" src="Assets/trending-2.jpeg">
+                </section>
+
+                <section class="bg-blue-500 w-52 rounded-3xl">
+                    <p class="ml-20 pt-4 text-white text-xl">Action</p>
+                    <img class="w-full h-52 mt-6 rounded-3xl" src="Assets/trending-3.jpeg">
+                </section>
+
+                <section class="bg-blue-500 w-52 rounded-3xl">
+                    <p class="ml-20 pt-4 text-white text-xl">Action</p>
+                    <img class="w-full mt-6 rounded-3xl" src="Assets/top-game-01.jpeg">
+                </section>
+            </div>
+        </div>
+
+        <div class="flex mt-48 ml-96">
+           <section class="absolute space-y-8 mt-20 -ml-48 h-150 bg-gray-100 w-96 py-8 pl-16 rounded-3xl">
+                <p class="font-bold text-red-400">OUR SHOP</p>
+                <p class="font-bold text-4xl">Go Pre-Order <br>Buy & Get <br>Best <span>Prices</span><br>For you!</p>
+                <p class="font-bold text-gray-600">Lorem ipsum dolor consectetur <br>adipiscing, sed do eiusmod tempor <br>incididunt.</p>
+                <button class="bg-red-500 w-36 h-12 rounded-3xl">SHOP NOW</button>
+           </section> 
+
+           <img class="rounded-3xl" src="Assets/PUBG.jpeg">
+
+           <section class=" right-48 mt-48 -ml-44 flex flex-col space-y-8 bg-gray-200 w-96 py-8 pl-16 rounded-3xl">
+                <p class="font-bold text-red-400">NEWSLETTER</p>
+                <P class="text-4xl font-bold">Get Up To $100 Off <br>Just Buy <br>Subscribe <br>Newsletter!</P>
+                <input class="bg-white w-64 p-4 h-10 rounded-3xl" type="text" placeholder="Your email">
+                <button class="absolute mt-72 right-56 bg-red-500 w-48 h-10 rounded-3xl text-white font-medium right-28">SUBSCRIBE NOW</button>
+           </section>
+        </div>
+
+        <footer class="bg-blue-500 h-28 rounded-t-[150px] px-80 pt-12 mt-48">
+            <p class="text-white">Copyright © 2048 LUGX Gaming Company. All rights reserved.    Design: TemplateMo</p>
+        </footer>
     </div>
 </body>
 </html>
